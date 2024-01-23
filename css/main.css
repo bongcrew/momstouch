@@ -100,7 +100,7 @@
 
 .menu-name {
   position: absolute;
-  background: #bd8a6b;
+  background: #5f3c27;
   width: 38rem;
   height: 43rem;
   bottom: 0;
@@ -153,8 +153,9 @@
 }
 
 .news-fran {
-  padding-top: 22rem;
+  padding: 15rem;
   line-height: 1.5;
+  background: #e3d6bf;
 }
 
 .news-fran .inner {
@@ -165,7 +166,7 @@
 
 .news {
   width: 55rem;
-  height: 25rem;
+  height: 30rem;
   display: block;
   /* border: 1px solid #000; */
   border-radius: 2rem;
@@ -185,15 +186,15 @@
 }
 
 .news a {
-  width: 31rem;
+  width: 25rem;
   height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  margin: 2.6rem auto;
+  margin: 3.8rem auto;
   text-align: center;
-  border: 1px solid #000;
+  border: 2px solid #000;
   background-color: #fff;
   border-radius: 2rem;
 }
@@ -205,10 +206,8 @@
 
 .franchise {
   width: 55rem;
-  height: 25rem;
+  height: 30rem;
   display: block;
-  /* position: relative; */
-  /* border: 1px solid #000; */
   border-radius: 2rem;
   padding: 3rem 3.5rem 1.5rem 6rem;
   background-color: #f2a900;
@@ -224,15 +223,15 @@
 }
 
 .franchise a {
-  width: 31rem;
+  width: 25rem;
   height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  margin: 2.6rem auto;
-  /* position: absolute; */
-  border: 1px solid #000;
+  margin: 3.8rem auto;
+
+  border: 2px solid #000;
   background-color: #fff;
   border-radius: 2rem;
 }

@@ -7,7 +7,7 @@
   --main-color2: #d7d2cb;
   --main-color3: #5c4738;
 
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .inner {
@@ -44,8 +44,8 @@ nav {
   height: 100%;
   align-items: center;
   display: flex;
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 2.2rem;
   justify-content: space-between;
   /* margin-right: 19rem; */
 }
@@ -56,10 +56,28 @@ nav {
   display: flex;
   justify-content: center;
   gap: 3rem;
+  /* background: #ff5; */
+  align-items: center;
 }
-.topmenu img {
+
+.topmenu a {
+}
+.sns1 {
   width: 4.5rem;
   height: 4.5rem;
+  background: url(../img/인스타로고.png) no-repeat 50% 50% / cover;
+}
+.sns2 {
+  width: 3.5rem;
+  height: 4.5rem;
+  background: url(../img/페이스북-로고.png) no-repeat 50% 50% / contain;
+}
+.sns3 {
+  width: 4.5rem;
+  height: 5rem;
+  background: url(../img/유튜브로고.png) no-repeat 50% 50% / cover;
+}
+.topmenu img {
 }
 
 .gnb li {
@@ -68,8 +86,8 @@ nav {
 .foot-menu {
   /* width: 192rem; */
   /*  height: 50rem; */
-  background: #987f71;
-  margin-top: 35rem;
+  background: #7a4d34;
+  /* margin-top: 15rem; */
   padding-top: 8rem;
   padding-bottom: 7rem;
 }
@@ -179,23 +197,22 @@ a:hover {
 }
 
 .btn-wrap {
-  margin-top: 20rem;
+  margin-top: 12rem;
   display: flex;
+  margin-bottom: 15rem;
 }
 
 .btn-basic {
-  border: 2px solid var(--main-color);
+  border: 3px solid var(--main-color);
+  border: 2px solid #000;
   font-size: 2rem;
-  padding: 2rem 6rem;
-  /*  width: 32rem;
-  height: 6rem; */
-  /* margin: 13rem auto 0; */
+  padding: 2rem 4rem;
   margin: 0 auto;
   display: flex;
   gap: 2rem;
 }
 .btn-basic::after {
-  content: "";
+  content: '';
   display: block;
   width: 2.4rem;
   height: 2.4rem;
@@ -204,6 +221,7 @@ a:hover {
 .btn-basic:hover {
   background: var(--main-color);
   color: #fff;
+  border: 2px solid var(--main-color);
 }
 
 .btn-basic:hover::after {
