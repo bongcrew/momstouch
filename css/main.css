@@ -1,0 +1,243 @@
+@charset 'utf-8';
+
+.main-visual {
+  background-color: #230f02;
+  position: relative;
+  /* height: 79rem; */
+}
+
+.visual-slide .inner {
+  position: relative;
+}
+.visual-slide .slide-item {
+  height: 79rem;
+}
+.visual-slide img {
+  width: 69rem;
+  height: 71rem;
+  position: absolute;
+  object-fit: cover;
+  left: 75rem;
+}
+
+.visual-slide-title {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  left: 12rem;
+}
+
+.visual-slide em {
+  display: block;
+  font-size: 2.8rem;
+  color: #ffeba6;
+  margin-top: 12rem;
+}
+
+.visual-slide h2 {
+  color: #fff;
+  font-size: 6rem;
+  margin-top: 6rem;
+  line-height: 8rem;
+}
+
+.visual-slide p {
+  color: #f9bd35;
+  font-size: 4rem;
+  margin-top: 6rem;
+}
+
+.dots {
+  position: absolute;
+  bottom: 12.2rem;
+  /* left: 20.41666666666667%; */
+  left: 50%;
+  margin-top: 1rem;
+  border: 1px solid #fff;
+  width: 23rem;
+  height: 4rem;
+  color: #fff;
+}
+
+.best-menu {
+  /* margin-top: 21rem; */
+  padding-top: 21rem;
+}
+
+.best-menu h3 {
+  font-size: 4rem;
+
+  text-align: center;
+}
+.best-menu .best-menu-list {
+  /*  background: yellow; */
+  /* width: 141rem; */
+  display: flex;
+  row-gap: 13rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.best-menu li {
+  border: 1px solid #000;
+  /* gap: 13rem; */
+  position: relative;
+  height: 43rem;
+  overflow: hidden;
+}
+
+.best-menu li figure {
+  width: 38rem;
+  height: 38rem;
+}
+
+.best-menu img {
+  width: 38rem;
+  height: 31rem;
+}
+
+.menu-name {
+  position: absolute;
+  background: #bd8a6b;
+  width: 38rem;
+  height: 43rem;
+  bottom: 0;
+  /* border: 1px solid red; */
+  top: 31rem;
+}
+
+.menu-name strong {
+  display: block;
+  font-size: 2.8rem;
+  color: #fff;
+  margin-top: 2.3rem;
+}
+/* strong으로 바꾸고 p로 상세 설명 내용 추가한다음에 op0로 해놓고 
+호버할때 1로 올리고 전체 위치 조정하는걸로 */
+
+.menu-name span {
+  display: block;
+  color: #000;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.menu-name p {
+  opacity: 0;
+  line-height: 2.5rem;
+}
+
+.best-menu-list li:hover .menu-name {
+  opacity: 1;
+  top: 0;
+  background-color: #ca6303;
+  transition: 0.5s;
+}
+
+.best-menu-list li:hover .menu-name strong {
+  margin-top: 15rem;
+}
+
+.best-menu-list li:hover .menu-name span {
+  /* margin-top: 6rem; */
+  opacity: 0;
+}
+
+.best-menu-list li:hover .menu-name p {
+  opacity: 1;
+  color: #f2f2f2;
+  font-size: 1.8rem;
+  margin-top: 8rem;
+}
+
+.news-fran {
+  padding-top: 22rem;
+  line-height: 1.5;
+}
+
+.news-fran .inner {
+  display: flex;
+  justify-content: center;
+  gap: 13rem;
+}
+
+.news {
+  width: 55rem;
+  height: 25rem;
+  display: block;
+  /* border: 1px solid #000; */
+  border-radius: 2rem;
+  padding: 3rem 3.5rem 1.5rem 6rem;
+  /* 가로 세로 동일하게 3rem , 6rem 으로 설정 */
+  background-color: #f2a900;
+}
+
+.news h4 {
+  font-size: 2.1rem;
+  opacity: 80%;
+}
+.news p {
+  font-weight: 500;
+  font-size: 2.7rem;
+  margin-top: 2rem;
+}
+
+.news a {
+  width: 31rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 2.6rem auto;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.news a:hover {
+  background: #72503b;
+  color: #fff;
+}
+
+.franchise {
+  width: 55rem;
+  height: 25rem;
+  display: block;
+  /* position: relative; */
+  /* border: 1px solid #000; */
+  border-radius: 2rem;
+  padding: 3rem 3.5rem 1.5rem 6rem;
+  background-color: #f2a900;
+}
+.franchise h4 {
+  font-size: 2.1rem;
+  opacity: 80%;
+}
+.franchise p {
+  font-weight: 500;
+  font-size: 2.7rem;
+  margin-top: 2rem;
+}
+
+.franchise a {
+  width: 31rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 2.6rem auto;
+  /* position: absolute; */
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.franchise a:hover {
+  background: #72503b;
+  color: #fff;
+}
